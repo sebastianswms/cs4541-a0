@@ -1,0 +1,18 @@
+Script started on 2023-09-05 20:03:22-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="195" LINES="48"]
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ ls
+hello.c  Makefile  README.md  typescript
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ make
+gcc -std=c99 -Wall -o hello hello.c
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ ls
+[0m[01;32mhello[0m  hello.c  Makefile  README.md  typescript
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ make run
+./hello
+Hi, I'm Sebastian, and I'm excited for the Fall 2023 semester of CS4541.
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ make clean
+rm hello
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ ls
+hello.c  Makefile  README.md  typescript
+]0;sebastian@smiley-virtual-machine: ~/Documents/cs4541/a0[01;32msebastian@smiley-virtual-machine[00m:[01;34m~/Documents/cs4541/a0[00m$ exit
+exit
+
+Script done on 2023-09-05 20:03:36-04:00 [COMMAND_EXIT_CODE="0"]
